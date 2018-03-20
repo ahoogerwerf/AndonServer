@@ -1,0 +1,28 @@
+{
+  "name": "AndonServer",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "bingspeech-api-client": "^2.4.1",
+    "fs": "0.0.1-security",
+    "include-all": "^1.0.0",
+    "rc": "1.0.1",
+    "sails": "^0.12.14",
+    "sails-disk": "~0.10.9",
+    "speaker": "^0.4.0",
+    "wav": "^1.0.1"
+  },
+  "scripts": {
+    "debug": "node debug app.js",
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/AndonServer.git"
+  },
+  "author": "anonymous node/sails user",
+  "license": ""
+}
