@@ -58,7 +58,9 @@ module.exports = {
   },
   turnOffGPIO: function (option, done) {
     gpio.write(gpioPin, off, function () {
-      console.log("GPIO off");      
+      console.log("GPIO off"); 
+      gpio.close(gpioPin);     
     })
+
   }
 }
